@@ -6,11 +6,11 @@ import cesium from 'vite-plugin-cesium';
 
 // https://vite.dev/config/
 export default defineConfig({
-    base:'/travel_plan/',
+    // base:'/travel_plan/',
     assetsInclude: ['**/*.glb', '**/*.ifc', '**/*.wasm'],
     plugins: [react(), tailwindcss(), flowbiteReact(), cesium()],
     server: {
-        port: 5174,
+        port: 5177,
         strictPort: true
     },
     define: {
